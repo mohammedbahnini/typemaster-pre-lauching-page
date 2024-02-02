@@ -1,0 +1,16 @@
+@mixin grid($prefix:''){
+
+
+    .#{$prefix}grid{
+        display: grid;
+        grid-template-columns: repeat( #{$columns-count} , 1fr);
+    }
+    
+    @for $i from 1 through $columns-count {
+        .#{$prefix}col-#{$i} {
+            grid-column: span #{$i};
+        }
+    }
+}
+
+@include grid;

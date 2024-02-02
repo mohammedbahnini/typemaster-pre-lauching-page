@@ -1,0 +1,13 @@
+@import 'font-families';
+@import 'font-sizes';
+@import 'text-colors';
+@import 'text-align';
+@import 'text-align-childs';
+
+@include font-families;
+@include font-sizes;
+@include text-colors;
+@include text-align;
+@include text-align-childs;
+
+

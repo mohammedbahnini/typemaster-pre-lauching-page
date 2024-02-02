@@ -1,0 +1,24 @@
+
+.btn{
+    display: inline-block;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.6875em;
+    padding: 1rem 1.6875rem;
+    background-color: lightgray;
+    color: black;
+    border-radius: .5rem;
+    cursor: pointer;
+    vertical-align: text-bottom;
+    font-weight: 900;
+    color: $white;
+    transition: background-color .2s linear;
+    text-align: center;
+
+    @include mq( $mobile-breakpoint){
+        padding: 0.6875rem 0.875rem;
+    }
+
+
+}

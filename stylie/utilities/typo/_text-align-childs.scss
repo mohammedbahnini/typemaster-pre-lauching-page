@@ -1,0 +1,15 @@
+@mixin text-align-childs( $bp : ''){
+    // set text aligns
+    .#{$bp}childs-text-align-left > *{
+        text-align: left;
+    }
+    .#{$bp}childs-text-align-right > *{
+        text-align: right;
+    }
+    .#{$bp}childs-text-align-center > *{
+        text-align: center;
+    }
+    .#{$bp}childs-text-align-justify > *{
+        text-align: justify;
+    }
+}

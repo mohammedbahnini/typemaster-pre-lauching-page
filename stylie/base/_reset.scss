@@ -1,0 +1,45 @@
+* , *::after , *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    
+}
+
+body {
+    font-family: $font-familly-base ;
+    min-height: 100vh;
+    line-height: 1.5em;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+
+ul , ol {
+    list-style: none;
+}
+img {
+    display: block;
+    width: 100%;
+}
+
+h1 , 
+h2 , 
+h3 , 
+h4 , 
+h5 , 
+h6 {
+    line-height: 1.1em;
+}
+
+
+.container{
+    max-width: calc( 69.375rem + ( #{$container-padding} * 2) );
+    padding: 0 $container-padding ;
+    margin: 0 auto ;
+}
+

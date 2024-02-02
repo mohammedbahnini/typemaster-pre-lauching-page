@@ -1,0 +1,15 @@
+// set text aligns
+@mixin text-align( $bp : '' ){
+    .#{$bp}text-align-left{
+        text-align: left;
+    }
+    .#{$bp}text-align-right{
+        text-align: center;
+    }
+    .#{$bp}text-align-center{
+        text-align: center;
+    }
+    .#{$bp}text-align-justify{
+        text-align: justify;
+    }
+}

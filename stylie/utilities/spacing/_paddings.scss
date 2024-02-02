@@ -1,0 +1,20 @@
+// setting padding classes
+@mixin padding($bp:''){
+    @for $i from 0 through 100 {
+        @each $prefix , $map in $padding-prefixes{
+            .#{$bp}childs-#{$prefix}-#{$i} > *{
+                @each $property in $map {
+                    #{$property} : $i * $padding-base / 4;
+                }
+            }
+    
+            .#{$bp}#{$prefix}-#{$i}{
+                @each $property in $map {
+                    #{$property} : $i * $padding-base / 4;
+                }
+            }
+        }
+    
+    
+    }
+}

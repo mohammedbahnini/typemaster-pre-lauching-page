@@ -1,0 +1,24 @@
+/* custom initializer */
+.heading-1{
+    font-size: 3.5rem;
+    line-height: 1em;
+    @include mq( $tablet-breakpoint ){
+        font-size: 3rem;
+    }
+}
+
+.heading-2{
+    font-size: 2rem;
+    line-height: 1.125em;
+
+}
+
+.heading-3{
+    font-size: 1.5rem;
+    line-height: 1.1666666em;
+}
+
+.body-text{
+    font-size: 1rem;
+    line-height: 1.625em;
+}

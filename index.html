@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <title>Frontend Mentor | Typemaster pre-launch landing page</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="stylie/stylie.css">
+    <link rel="stylesheet" href="stylie/custom.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="flex jc-space-between ai-center mt-16 tablet-mt-10">
+        <a href="#" class="logo block w-10" aria-label="logo" class="" >
+          <img src="assets/shared/logo.svg" alt="Logo">
+        </a>
+
+        <a href="#" class="btn uppercase bg-light-gray hover-bg-dark-blue text-dark-blue hover-text-white ">pre-order now</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="hero mt-21 tablet-mt-15 overflow-x-hidden  ">
+      <div class="container flex col-gap-31 tablet-col-gap-16 relative tablet-overflow-x-hidden 
+      mobile-flex-col mobile-row-gap-16  ">
+        
+        <div class="hero__text tablet-max-w-85 tablet-py-15 mobile-py-0  ">
+          <h1 class="heading-1 uppercase text-dark-blue fw-900 mb-6  ">
+            Typemaster keyboard
+          </h1>
+          <p class="body-text text-light-blue mb-10  ">
+            Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
+            mechanical typing experience.
+          </p>
+          <div class="flex ai-center col-gap-10 tablet-col-gap-9 mobile-col-gap-8 ">
+            <a href="#" class="btn uppercase bg-dark-orange hover-bg-light-orange">pre-order now</a>
+            <p class="uppercase fw-700 text-light-blue fs-4   ">
+              Release on 5/27
+            </p>
+          </div>
+        </div>
+
+        <div class="hero__img radius-5 overflow-hidden tablet-absolute  tablet-w-120 tablet-left-102 
+        tablet-top-0 tablet-bottom-0 mobile-static mobile-w-100-vw" >
+          <img src="assets/desktop/image-keyboard.jpg" alt="keyboard">
+        </div>
+
+        <div class="square absolute w-64 h-60 bg-light-gray radius-5 right--71 tablet-hide "></div>
+      </div>
+
+      
+    </section>
+
+
+    <section class="intro mt-8 tablet-mt-10">
+      <div class="container relative ">
+
+
+        <div class="grid col-gap-8 tablet-row-gap-18 mobile-col-gap-0   ">
+
+          <div class="col-3 tablet-col-4   radius-5 overflow-hidden phone-and-keyboard tablet-h-80 
+          mobile-absolute mobile-w-34-vw mobile-h-51-vw mobile-z-2  mobile-right-77-pr mobile-top-0 ">
+            <picture>
+              <source media="(max-width : 576px)" srcset="assets/mobile/image-phone-and-keyboard.jpg">
+              <source media="(max-width : 992px)" srcset="assets/tablet/image-phone-and-keyboard.jpg">
+              <img src="assets/desktop/image-phone-and-keyboard.jpg" alt="Keyboard and Phone" class="h-100-pr object-fit-cover ">
+            </picture>
+          </div>
+
+          <div class="col-6  tablet-col-8 radius-5 overflow-hidden w-111 tablet-w-auto tablet-h-80 
+          mobile-col-12 mobile-ml-27 mobile-h-51-vw ">
+            <picture>
+              <source media="(max-width : 576px)" srcset="assets/mobile/image-glass-and-keyboard.jpg" >
+              <source media="(max-width : 992px)" srcset="assets/tablet/image-glass-and-keyboard.jpg" >
+              <img src="assets/desktop/image-glass-and-keyboard.jpg" alt="Keyboard" 
+              class="tablet-h-100-pr object-fit-cover "  >
+            </picture>
+          </div>
+
+          <div class="intro__text col-3 mobile-col-12 tablet-col-12 mt-28 tablet-mt-0
+          tablet-flex tablet-ai-center tablet-col-gap-9 
+          mobile-flex-col mobile-text-align-center   ">
+
+            <h2 class="heading-2 uppercase text-dark-blue fw-900  mb-7 
+            tablet-mb-0 tablet-w-172 mobile-w-64  ">
+              Mechanical wireless keyboard
+            </h2>
+            <p class="body-text text-light-blue  ">
+              The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety 
+              of switches and keycaps, along with reliable wireless connectivity.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="square w-64 h-59 bg-light-gray radius-5 absolute bottom-0 left--71   "></div>
+      </div>
+    </section>
+
+    <section class="features mt-42 tablet-mt-36 mobile-mt-28   ">
+
+      <div class="container relative ">
+        <div class="grid col-gap-8 tablet-col-gap-0 tablet-row-gap-18 tablet-mr-14 mobile-mr-0 mobile-row-gap-16  ">
+
+
+
+
+
+
+          <div class="feature col-3 tablet-col-6 mobile-col-12 tablet-mr-9 
+          mobile-mx-0 mobile-text-align-center ">
+            <div class="feature__icon bg-dark-orange radius-4 flex jc-center ai-center w-16 h-16 mb-12
+            tablet-mb-10 mobile-m-auto ">
+              <img class="w-6" src="assets/shared/icon-compatible.svg" alt="compatible">
+            </div>
+
+            <h3 class="heading-3 feature__title mb-4 uppercase text-dark-blue fw-900 max-w-42 tablet-mb-6 
+            mobile-m-auto mobile-mb-12   ">
+              Highly compatible
+            </h3>
+            <div class="feature__text text-light-blue ">
+              Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
+              Plug & play, no installation or driver needed.
+            </div>
+          </div>
+
+
+
+
+          <div class="feature col-3 tablet-col-6 mobile-col-12 tablet-ml-9 
+          mobile-mx-0 mobile-text-align-center">
+            <div class="feature__icon bg-dark-orange radius-4 flex jc-center ai-center w-16 h-16 mb-12
+            tablet-mb-10  mobile-m-auto ">
+              <img class="w-4" src="assets/shared/icon-bluetooth.svg" alt="Bluetooth">
+            </div>
+
+            <h3 class="heading-3 feature__title mb-4 uppercase text-dark-blue fw-900 max-w-45 tablet-mb-6
+            mobile-m-auto mobile-mb-12      ">
+              Wireless with bluetooth
+            </h3>
+            <div class="feature__text text-light-blue ">
+              Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away. 
+              Simply plug the unifying receiver into your computer.
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="feature col-3 tablet-col-6 mobile-col-12 tablet-mr-9 
+          mobile-mx-0 mobile-text-align-center">
+            
+          <div class="feature__icon bg-dark-orange radius-4 flex jc-center ai-center w-16 h-16 mb-12  tablet-mb-10 
+          mobile-m-auto   ">
+              <img class="w-8" src="assets/shared/icon-battery.svg" alt="Battery">
+            </div>
+
+            <h3 class="heading-3 feature__title mb-4 uppercase text-dark-blue fw-900 max-w-45 tablet-mb-6 
+            mobile-m-auto mobile-mb-12   ">
+              High capacity battery
+            </h3>
+            <div class="feature__text text-light-blue ">
+              Equipped with a long-lasting built-in battery, you’ll never have to spend a dime on replaceable ones. 
+              Enjoy 40 hours of usage time between charges.
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="feature col-3 tablet-col-6 mobile-col-12  tablet-ml-9 
+          mobile-mx-0 mobile-text-align-center">
+            <div class="feature__icon bg-dark-orange radius-4 flex jc-center ai-center w-16 h-16 mb-12 tablet-mb-10
+            mobile-m-auto ">
+              <img class="w-8" src="assets/shared/icon-light.svg" alt="Light">
+            </div>
+
+            <h3 class="heading-3 feature__title mb-4 uppercase text-dark-blue fw-900 max-w-45 tablet-mb-6
+            mobile-m-auto mobile-mb-12      ">
+              RGB backlit modes
+            </h3>
+            <div class="feature__text text-light-blue ">
+              Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps
+              you type in low light conditions.
+            </div>
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="mb-10 mt-32 tablet-mt-36 mobile-mt-24 mobile-mb-12 ">
+    <div class="container text-align-center ">
+      <span class="copyright fw-500 text-light-blue  ">
+        <span class="fw-700 ">Typemaster 2021</span>  | All Rights Reserved
+      </span>
+    </div>
+  </footer>
+
+  
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.hero{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+    }
+}
